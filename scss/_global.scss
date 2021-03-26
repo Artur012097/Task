@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.test-block {
+    height: 1000px;
+}
+
+.pink {
+    color: $pink;
+}
+
+.upp {
+    text-transform: uppercase;
+}
+
+.title-block {
+    width: 100%;
+    text-align: center;
+    .title {
+        font-family: $Libre, sans-serif;
+        font-weight: $reg;
+        font-size: 30px;
+        color: $gray-dark;
+    }
+}
